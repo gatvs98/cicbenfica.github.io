@@ -1,10 +1,15 @@
 import './App.css';
+import CICSlideshow from './components/CICSlideshow/CICSlideshow';
+import ContactsBar from './layout/ContactsBar';
+import Header from './layout/Header';
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <>
+      <ContactsBar />
+      <Header />
+      <CICSlideshow />
+    </>
   );
 }
 
