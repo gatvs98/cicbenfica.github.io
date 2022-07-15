@@ -1,5 +1,6 @@
 import React from 'react'
 import logo from '../assets/logo.png'
+
 const Header = () => {
 
     const navbarItems = [
@@ -42,4 +43,22 @@ const Header = () => {
     )
 }
 
-export default Header;
+const NewHeader = () => {
+    return (
+        <div className='w-screen h-[70px] px-[505px] grid overflow-hidden grid-cols-3 grid-rows-1 gap-2 bg-faded-black/[0.596] '>
+            <div className='bg-white h-[52px] self-center'>
+
+            </div>
+            <div className='bg-white w-80 justify-self-center'>
+
+            </div>
+            <div className='bg-white'>
+
+            </div>
+        </div>
+    );
+}
+export {
+    NewHeader,
+    Header
+};

@@ -14,7 +14,8 @@ module.exports = {
     },
     extend: {
       colors: {
-        'custom-orange': '#F27F35'
+        'custom-orange': 'rgb(94.9%, 49.8%, 20.8%)',
+        'faded-black': 'rgb(48%, 48%, 48%)'
       },
       fontSize: {
         'h2': '1.875rem',
