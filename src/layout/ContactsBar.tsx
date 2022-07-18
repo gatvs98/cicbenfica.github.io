@@ -1,5 +1,4 @@
 import React from 'react'
-import './ContactsBar.scss'
 
 const ContactsBar = () => {
     const contactsItems = [

@@ -1,5 +1,5 @@
 import './App.css';
-import CICSlideshow from './components/CICSlideshow/CICSlideshow';
+import CICSlideshow from './components/CICSlideshow/CICSlideShow';
 import ContactsBar from './layout/ContactsBar';
 import {NewHeader, Header} from './layout/Header';
 
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <ContactsBar />
-      <NewHeader />
+      <Header />
       <CICSlideshow />
     </>
   );
