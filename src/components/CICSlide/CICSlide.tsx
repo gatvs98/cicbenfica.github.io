@@ -1,12 +1,10 @@
 import * as React from 'react';
-import { CICSlideItem } from '../../models/CICSlideItem';
-
+import './CICSlide.scss'
 
 const CICSlide = (props: any) => {
-    return(
-        <div className='flex '>
-            <img src={props.item.image} alt={props.item.alt} className='slide' />
-            <p>{props.item.header}</p>
+    return (
+        <div className='slide w-full h-max'>
+            <img src={props.item.image} alt={props.item.alt} className='slide w-full h-max' />
         </div>
     )
 }
